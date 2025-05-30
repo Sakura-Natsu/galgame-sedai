@@ -279,7 +279,7 @@ const data: Data = {
     { title: "人间残渣", score: 6.9 },
     { title: "暗之部屋", score: 7.7 },
     { title: "库特wafter", score: 7 },
-    { title: "BALDR SKY DiveX "DREAM WORLD"", score: 7.6 },
+    { title: "BALDR SKY DiveX ", score: 7.6 },
     { title: "天使的星期日", score: 7.4 },
     { title: "日在校园 HQ", score: 7 },
     { title: "Tiny Dungeon ～BLACK and WHITE～", score: 6.4 },
