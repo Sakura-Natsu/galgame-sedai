@@ -1,8 +1,8 @@
 import { load } from "cheerio"
 import fs from "fs"
 
-// 2004 to 2024
-const years = Array.from({ length: 2024 - 2004 + 1 }, (_, i) => 2004 + i)
+// 2000 to 2024
+const years = Array.from({ length: 2024 - 2000 + 1 }, (_, i) => 2000 + i)
 
 type Item = {
   title: string
@@ -11,7 +11,7 @@ type Item = {
 const result: Record<string, Item[]> = {}
 for (const year of years) {
   console.log(`正在获取 ${year} 年的数据`)
-  const url = `https://bgm.tv/anime/browser/tv/airtime/${year}?sort=trends`
+  const url = `https://bangumi.tv/game/browser/Galgame/airtime/${year}?sort=trends`
   const response = await fetch(url)
   const html = await response.text()
   const $ = load(html)
