@@ -148,7 +148,7 @@ ${Object.keys(animeData)
           >
             <div className="border-b justify-between p-2 text-lg  font-bold flex">
               <h1>
-                Gal世代<span className="remove"> - 点击选择你玩过的galgame</span>
+                Gal世代（同人版）<span className="remove"> - 点击选择你玩过的同人galgame</span>
               </h1>
               <span className="shrink-0 whitespace-nowrap">
                 我玩过 {selectedAnime.length}/
@@ -305,7 +305,7 @@ ${Object.keys(animeData)
         </div>
 
         <div className="mt-2 text-center">
-          历年关注最多的galgame，数据来自 bgm.tv
+          历年关注最多的同人galgame，数据来自 bgm.tv
         </div>
       </div>
     </>
